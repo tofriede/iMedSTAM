@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+seg*/
+lib/
+lib64
+bin/
+share/
+include/
+frames_*
+*.egg-info
+checkpoints/*.pt
+.DS_Store
+cufile.log
+build/
+pyvenv.cfg
+train_logs/
