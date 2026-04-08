@@ -189,7 +189,7 @@ trainer:
 
   data:
     train:
-      _target_: training.dataset.sam2_datasets.TorchTrainMixedDataset
+      _target_: training.dataset.datasets.TorchTrainMixedDataset
       phases_per_epoch: ${scratch.phases_per_epoch}
       batch_sizes:
         - ${scratch.train_batch_size}
