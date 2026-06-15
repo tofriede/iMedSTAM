@@ -6,6 +6,12 @@ Interactive Segmentation and Tracking Anything in 3D Medical Images and Videos.
 
 This repository was created for the [CVPR 2025: Foundation Models for Interactive 3D Biomedical Image Segmentation](https://www.codabench.org/competitions/5263/) challenge. It is based on [EfficientTAM](https://github.com/yformer/EfficientTAM).
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2451d1d2-722d-4ead-8784-3c2ee724789b" height=450 alt="Interactive segmentation pipeline with iMedSTAM">
+  
+  <i>Interactive segmentation pipeline with iMedSTAM</i>
+</div>
+
 ## Setup
 
 ### Installation
@@ -61,8 +67,8 @@ If you use this code or find our work helpful, please cite:
   year={2026},
   publisher={Springer Nature Switzerland},
   pages={173--193},
-  isbn={978-3-032-23496-4}
-  doi={https://doi.org/10.1007/978-3-032-23496-4_10}
+  isbn={978-3-032-23496-4},
+  url={https://doi.org/10.1007/978-3-032-23496-4_10},
 }
 
 ```
