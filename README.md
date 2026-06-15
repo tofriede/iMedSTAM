@@ -1,4 +1,7 @@
-# iMedSTAM  
+# iMedSTAM 
+
+[ :scroll: [`Paper`](https://doi.org/10.1007/978-3-032-23496-4_10)] [ :book: [`BibTeX`](#citation)]
+
 Interactive Segmentation and Tracking Anything in 3D Medical Images and Videos.
 
 This repository was created for the [CVPR 2025: Foundation Models for Interactive 3D Biomedical Image Segmentation](https://www.codabench.org/competitions/5263/) challenge. It is based on [EfficientTAM](https://github.com/yformer/EfficientTAM).
@@ -43,3 +46,23 @@ docker save -o imedstam.tar.gz imedstam:latest
 ```
 
 You can also run predictions directly using `predict.sh`. Make sure to download the fine-tuned checkpoint and modify the script to include the correct model path: `--model=/your_downloaded_checkpoint`
+
+
+## Citation
+
+If you use this code or find our work helpful, please cite:
+
+```bibtex
+
+@InProceedings{friedetzki2026imedstam,
+  title={iMedSTAM: Interactive Segmentation and Tracking Anything in 3D Medical Images and Videos},
+  author={Friedetzki, Tobias and Haberzettl, Lorenz and Buttmann, Ricarda and Puppe, Frank and Krenzer, Adrian},
+  booktitle={Foundation Models for 3D Biomedical Image Segmentation},
+  year={2026},
+  publisher={Springer Nature Switzerland},
+  pages={173--193},
+  isbn={978-3-032-23496-4}
+  doi={https://doi.org/10.1007/978-3-032-23496-4_10}
+}
+
+```
